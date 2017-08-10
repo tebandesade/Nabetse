@@ -1,6 +1,6 @@
 import logging
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
-from gensim import corpora, models, similarities
+#from gensim import corpora, models, similarities
 import sys
 import re
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
